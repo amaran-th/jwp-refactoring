@@ -18,7 +18,7 @@ import java.util.Optional;
 @Repository
 public class JdbcTemplateMenuGroupDao implements MenuGroupDao {
 
-    private static final String TABLE_NAME = "kitchenpos/menu_group";
+    private static final String TABLE_NAME = "menu_group";
     private static final String KEY_COLUMN_NAME = "id";
 
     private final NamedParameterJdbcTemplate jdbcTemplate;
